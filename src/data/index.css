@@ -1,0 +1,84 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f3f8ff;
+  margin: 0;
+  color: #222d3a;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  background: linear-gradient(90deg, #e0f2ff 0%, #b3e0ff 100%);
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.subtitle {
+  color: #0057b8;
+  font-weight: 500;
+}
+
+main {
+  flex: 1;
+  max-width: 700px;
+  margin: 2rem auto;
+  width: 95%;
+}
+
+.section-title {
+  color: #1976d2;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.75);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba(31,38,135,0.12);
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+}
+
+.prompt-item {
+  margin-bottom: 1.5rem;
+}
+.prompt-title {
+  font-weight: 600;
+  color: #2962ff;
+}
+.prompt-text {
+  background: #e3f2fd;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1rem;
+}
+
+.note-item {
+  margin-bottom: 1.2rem;
+}
+.note-link {
+  color: #0057b8;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.note-desc {
+  display: block;
+  color: #607d8b;
+  font-size: 0.96em;
+  margin-top: 0.2em;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.2rem 0;
+  background: #e0f2ff;
+  color: #888;
+  font-size: 1rem;
+}

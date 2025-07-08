@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Brainstorming Ideas",
+    "prompt": "Suggest 10 unique startup ideas related to education technology."
+  },
+  {
+    "title": "Summarize a Research Paper",
+    "prompt": "Summarize the following research paper in bullet points: [paste text here]."
+  },
+  {
+    "title": "Study Notes Generator",
+    "prompt": "Generate concise study notes for the topic: Quantum Computing."
+  }
+]
